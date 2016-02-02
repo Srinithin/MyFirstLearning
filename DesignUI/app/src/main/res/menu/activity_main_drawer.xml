@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_recentlyViewed"
+            android:title="Recently Viewed" />
+        <item
+            android:id="@+id/nav_enableDisable"
+            android:title="Enable/Disable" />
+        <item
+            android:id="@+id/nav_interestPoints"
+            android:title="Interest Points" />
+    </group>
+
+    <group android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/nav_notificattions"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:title="Wishlisht" />
+    </group>
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:title="About Us" />
+
+    </group>
+</menu>
